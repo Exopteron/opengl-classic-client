@@ -1,0 +1,36 @@
+[package]
+name = "exoglgame"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gl = "0.14.0"
+glutin = "0.27.0"
+glam = "0.20.1"
+image = "0.23.14"
+ahash = "*"
+fxhash = "*"
+freetype-rs = "*"
+anyhow = "*"
+log = "0.4.1"
+env_logger = "0.9.0"
+chrono = "0.4.1"
+flate2 = "*"
+named-binary-tag = "*"
+num-traits = "0.2"
+num-derive = "0.2"
+variant_count = "1.1"
+fnv = "*"
+enum-iterator = "*"
+thiserror = "1"
+byteorder = "1"
+encoding = "0.2.33"
+serde_derive = "1.0.130"
+serde = "1.0.130"
+bytes = { version = "1.1.0", features = ["serde"] }
+tokio = { version = "1.10.1", features = ["full"] }
+flume = "0.10.9"
+slab = "0.4.5"
+rayon = "*"
